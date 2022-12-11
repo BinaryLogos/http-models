@@ -5,7 +5,7 @@ type PromptRequest struct {
 	// CategoryID is the category id used for a prompt generation
 	CategoryID string `json:"category_id"`
 	// PromptData is the custom data for a prompt generation
-	PromptData PromptData `json:"prompt_data"`
+	PromptData []PromptData `json:"prompt_data"`
 }
 
 // PromptData is the custom data for a prompt generation
